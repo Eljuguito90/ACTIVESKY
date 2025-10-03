@@ -1,0 +1,17 @@
+# 1. Ir a carpeta backend
+cd backend
+
+# 2. Crear y activar entorno virtual
+python -m venv venv
+
+# En Windows:
+venv\Scripts\activate
+
+# En Mac/Linux:
+source venv/bin/activate
+
+# 3. Instalar todas las dependencias
+pip install -r requirements.txt
+
+# 4. Verificar instalación
+pip list
